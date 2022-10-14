@@ -2,7 +2,6 @@ import React from "react";
 import "./ChartBar.css";
 
 const ChartBar = ({ value, maxValue, label }) => {
-    
   let barHeight = "0%";
 
   if (maxValue > 0) {
